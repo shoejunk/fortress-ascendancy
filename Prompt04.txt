@@ -1,1 +1,5 @@
 You are a highly experienced tech director in the game industry with over 20 years of experience. Based on the attached documents, create step by step instructions for a low-level engineer on how to set up their work environment. They have a computer with Windows 11, Visual Studio Code, and git already installed on it but nothing else. Explain very clearly how to set up Godot and any other tools they might need according to the technical documents.
+* Attach DesignDocument.md
+* Attach HighLevelTechnicalOverview.md
+* Attach TechnicalDesignDocument.md
+* Save as SetupInstructions.md
