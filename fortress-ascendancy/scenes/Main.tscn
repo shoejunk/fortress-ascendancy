@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://daorsfwv3xcyl"]
+
+[ext_resource type="PackedScene" uid="uid://cony1v4x162k0" path="res://scenes/Hovercraft.tscn" id="1_et3n6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RigidBody2D" parent="." instance=ExtResource("1_et3n6")]
+gravity_scale = 0.0

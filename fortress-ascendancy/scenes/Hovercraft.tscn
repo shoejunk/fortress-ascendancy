@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://cony1v4x162k0"]
+
+[ext_resource type="Script" path="res://scripts/hovercraft/FuelSystem.gd" id="1_75lrl"]
+[ext_resource type="Script" path="res://scripts/hovercraft/MovementController.gd" id="1_x8y6m"]
+[ext_resource type="Texture2D" uid="uid://td7bj1k4rwb4" path="res://assets/hovercraft.png" id="2_t1ulc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ydcao"]
+
+[node name="RigidBody2D" type="RigidBody2D"]
+script = ExtResource("1_x8y6m")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_t1ulc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ydcao")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("1_75lrl")

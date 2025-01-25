@@ -1,0 +1,4 @@
+You are a highly experienced senior software engineer with over 20 years in the game industry. You are tasked with taking the first steps in creating the game outlined in the attached documents. The Godot project is setup but there's no code written yet. Referencing the attached documents, implement step 1 of the project. Make sure to document the expected results of your code.
+* Attach DesignDocument.md
+* Attach HighLevelTechnicalOverview.md
+* Attach TechnicalDesignDocument.md
